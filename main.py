@@ -82,7 +82,7 @@ class TicTacToe:
                 button.grid(row=i, column=j, sticky="nsew")
                 row.append(button)
             self.board.append(row)
-            self.set_hover(False)
+        self.set_hover(False)
 
     def symbol_selection(self):
         """Let the user chose a symbol"""
