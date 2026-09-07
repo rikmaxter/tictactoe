@@ -21,7 +21,7 @@ game.run()              # lancer le jeu
 1. Cloner le repo :
     ```
     git clone git@github.com:rikmaxter/tictactoe.git
-    cd repo_name
+    cd tictactoe
     ```
 2. Installer `tkinter` :
     - **Ubuntu/Debian** : `sudo apt install python3-tk`
