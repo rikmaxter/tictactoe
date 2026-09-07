@@ -42,6 +42,7 @@ class TicTacToe:
     
     def clear_symbol(self, i, j):
         self.board[i][j]["text"] = ""
+        self.board[i][j].config(bg="#f0f0f0")
 
     def highlight_cells(self, cells, color):
         for i, j in cells:
@@ -218,7 +219,6 @@ class TicTacToe:
         for i in range(self.n):
             for j in range(self.n):
                 self.clear_symbol(i, j)
-                self.board[i][j].config(bg="#f0f0f0")
 
         self.set_hover(False)
 
